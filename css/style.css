@@ -393,7 +393,6 @@ header {
 
 .contact {
   background-color: hsl(231, 69%, 60%);
-  height: 35vh;
   margin: auto;
   padding: 50px;
   color: white;
@@ -673,13 +672,25 @@ footer nav ul li img{
     padding: 40px 20px;
   }
   
+  header nav ul {
+    gap: 20px;
+  }
+
+  header nav li {
+    margin-bottom: 20px;
+  }
+  
+  .nav-menu a {
+    font-size: 1.7rem;
+  }
+  
   .buttons .btn {
     padding: 10px 12px;
   }
 
- .title {
-  width: 320px;
- }
+  .title {
+    width: 320px;
+  }
   
   .hero-text h1 {
     font-size: 30px;
@@ -705,8 +716,16 @@ footer nav ul li img{
     height: 22%;
   }
 
+  .download-section {
+    padding: 0;
+  }
+
   .faq-item {
     width: 350px;
+  }
+
+  .faq-question h3 {
+    font-size: 15px;
   }
 
   .contact-title {
